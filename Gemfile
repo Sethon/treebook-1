@@ -10,9 +10,14 @@ gem 'simple_form'
 
 gem 'json'
 
+group :test do
+	gem 'shoulda', '~> 2.0'
+end
+
 group :development, :test do
 	gem 'sqlite3'
 end
+
 
 # Gems used only for assets and not required
 # in production environments by default.
